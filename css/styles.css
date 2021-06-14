@@ -1,0 +1,785 @@
+/************************************first page********************************************/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  position: relative;
+}
+a {
+  text-decoration: none;
+}
+.top-container {
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+  /* padding-right: 0px 20px 200px auto; */
+  background: url(../images/background1.jpg);
+  mix-blend-mode: normal;
+  background-repeat: no-repeat;
+  /* background-size: auto; */
+  margin: -64px 0px 0px 0px;
+}
+.navigation-bar {
+  position: relative;
+  width: 192px;
+  height: 62px;
+  left: 0px;
+  top: 0px;
+  z-index: 4;
+  
+}
+.pic {
+  position: absolute;
+  width: 383px;
+  height: 386px;
+  left: 455px;
+  top: 184px;
+  border-radius: 167px;
+}
+
+.name {
+  position: absolute;
+  width: 635px;
+  height: 94px;
+  left: 255px;
+  top: 540px;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 94px;
+  text-align: left;
+}
+.hi {
+  position: absolute;
+  width: 171px;
+  height: 58px;
+  left: 255px;
+  top: 482px;
+
+  font-family: "Sacramento", cursive;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 47px;
+  display: flex;
+  align-items: flex-end;
+
+  color: #000000;
+}
+.a-programmer {
+  position: absolute;
+  width: 297px;
+  height: 47px;
+  left: 255px;
+  top: 664px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+
+  color: #000000;
+}
+.codechef {
+  position: absolute;
+  width: 61px;
+  height: 61px;
+  left: 255px;
+  top: 754px;
+
+  background: #c4c4c4;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.codechef:hover{
+  background: #aaaaaa;
+}
+.codechef-icon {
+  position: relative;
+  width: 44px;
+  height: 44px;
+  margin: 8px auto;
+}
+.github {
+  position: absolute;
+  width: 61px;
+  height: 61px;
+  left: 350px;
+  top: 754px;
+
+  background: #c4c4c4;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.github:hover{
+  background: #aaaaaa;
+}
+.github-icon {
+  position: relative;
+  width: 44px;
+  height: 44px;
+  margin: 8px auto;
+}
+.linkedin {
+  position: absolute;
+  width: 61px;
+  height: 61px;
+  left: 442px;
+  top: 754px;
+
+  background: #c4c4c4;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.linkedin:hover{
+  background: #aaaaaa;
+}
+.linkedin-icon {
+  position: relative;
+  width: 44px;
+  height: 44px;
+  margin: 8px auto;
+}
+.contact {
+  position: absolute;
+  width: 147px;
+  left: 1608px;
+  top: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+  
+  background: #ffffff;
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 20px;
+  color: #000000;
+  font-size: 20px;
+  padding: 10px 10px 10px 10px;
+  border: solid #ffffff 0px;
+  text-decoration: none;
+}
+.skill {
+  position: absolute;
+  width: 147px;
+  left: 1419px;
+  top: 20px;
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 21px;
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+.about-me {
+  position: absolute;
+  width: 147px;
+  left: 1268px;
+  top: 20px;
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 21px;
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+.home {
+  position: absolute;
+  width: 147px;
+  left: 1108px;
+  top: 20px;
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 21px;
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+.p-logo{
+  position: relative;
+  left: 900px;
+  width: 38px;
+  height: 40px;
+  margin: 9px auto;
+
+}
+/**********************************************second page*********************************/
+
+.middle-container {
+  position: relative;
+  width: 1920px;
+  height: 2560px;
+  padding-right: 0px 20px 200px auto;
+  background: url(../images/background2-2.jpg), #d8d8d8;
+  mix-blend-mode: normal;
+  background-repeat: no-repeat;
+  /* background-size: auto; */
+  margin: 0;
+}
+.aboutme {
+  position: absolute;
+  width: 404px;
+  height: 74px;
+  left: 758px;
+  top: 158px;
+  padding: 9px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 38px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.35538em;
+  padding: 20px auto 10px auto;
+
+  color: #000000;
+
+  border: 8px solid #000000;
+  box-sizing: border-box;
+}
+.intro-disc {
+  margin: 0 40px;
+  position: absolute;
+  width: 1061px;
+  height: 248px;
+  left: 376px;
+  top: 309px;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 138.68%;
+  /* or 39px */
+
+  color: #000000;
+  text-align: justify;
+}
+
+.hr-icon1 {
+  position: absolute;
+  width: 170px;
+  height: 12px;
+  left: 865px;
+  top: 624px;
+}
+
+.skills {
+  position: absolute;
+  width: 404px;
+  height: 74px;
+  left: 764px;
+  top: 732px;
+  padding: 9px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 38px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.35538em;
+  padding: 20px auto 10px auto;
+
+  color: #000000;
+
+  border: 8px solid #000000;
+  box-sizing: border-box;
+}
+.using-now {
+  position: absolute;
+  width: 273.39px;
+  height: 73.71px;
+  left: 456px;
+  top: 900px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.18538em;
+
+  color: #000000;
+}
+
+.icon:hover{
+  transform: scale(1.3);
+}
+
+.icon-c {
+  position: absolute;
+  width: 90px;
+  height: 100px;
+  left: 520px;
+  top: 1100px;
+  
+}
+.c {
+  position: absolute;
+  width: 20px;
+  height: 54.16px;
+  left: 555px;
+  top: 1220px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.13538em;
+  color: rgba(0, 0, 0, 0.9);
+}
+.icon-cpp {
+  position: absolute;
+  width: 90px;
+  height: 100px;
+  left: 760px;
+  top: 1100px;
+}
+
+.cpp {
+  position: absolute;
+  width: 51.39px;
+  height: 51.79px;
+  left: 780px;
+  top: 1220px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.13538em;
+
+  color: #1a1a1a;
+}
+
+.icon-html5 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 987px;
+  top: 1100px;
+}
+.html5 {
+  position: absolute;
+  width: 80px;
+  height: 51.79px;
+  left: 995px;
+  top: 1220px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.13538em;
+
+  color: #000000;
+}
+.icon-css {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 1232px;
+  top: 1100px;
+}
+.css {
+  position: absolute;
+  width: 60px;
+  height: 51px;
+  left: 1252px;
+  top: 1220px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.13538em;
+
+  color: #000000;
+}
+.icon-aws {
+  position: absolute;
+  width: 150px;
+  height: 120px;
+  left: 491.39px;
+  top: 1300px;
+}
+.aws {
+  position: absolute;
+  width: 51.39px;
+  height: 51.79px;
+  left: 530px;
+  top: 1420px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.13538em;
+
+  color: #000000;
+}
+.learning {
+  position: absolute;
+  width: 273.39px;
+  height: 73.71px;
+  left: 456px;
+  top: 1530px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.18538em;
+
+  color: #000000;
+}
+.icon-boot {
+  position: absolute;
+  width: 110px;
+  height: 110px;
+
+  left: 520px;
+  top: 1730px;
+}
+.boot {
+  position: absolute;
+  width: 190px;
+  height: 58px;
+  left: 490px;
+  top: 1855px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.13538em;
+  color: #000000;
+}
+.icon-dsa {
+  position: absolute;
+  width: 110px;
+  height: 100px;
+  left: 765px;
+  top: 1730px;
+}
+.dsa {
+  position: absolute;
+  width: 145px;
+  height: 50px;
+  left: 786px;
+  top: 1855px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.13538em;
+  color: #000000;
+}
+.icon-flutter {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+
+  left: 1010px;
+  top: 1730px;
+}
+.flutter {
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  left: 1020px;
+  top: 1855px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.13538em;
+  color: #000000;
+}
+
+.other-skills {
+  position: absolute;
+  width: 310px;
+  height: 53px;
+  left: 456px;
+  top: 1970px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.18538em;
+
+  color: #000000;
+}
+.icon-figma {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 520px;
+  top: 2170px;
+}
+.figma {
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  left: 520px;
+  top: 2290px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.13538em;
+  color: #000000;
+}
+
+.hr-icon2 {
+  position: relative;
+  width: 170px;
+  height: 12px;
+  top: 2480px;
+}
+
+/****************************************************3rd page************************************************/
+
+.contact-page {
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+  background: url(../images/background3.jpg), #ffffff;
+  mix-blend-mode: normal;
+  background-repeat: no-repeat;
+  /* background-size: auto; */
+  margin: 0;
+}
+
+.contact-box {
+  position: absolute;
+  width: 320px;
+  height: 74px;
+  margin: 0 auto 0 auto;
+  left: 800px;
+  top: 80px;
+  padding: 10px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 38px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.35538em;
+
+  color: #000000;
+
+  border: 8px solid #000000;
+  box-sizing: border-box;
+}
+
+.message {
+  position: absolute;
+  width: 800px;
+  height: 137px;
+  left: 560px;
+  top: 160px;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 138.68%;
+  /* or 39px */
+
+  color: #000000;
+  text-align: justify;
+}
+
+.form {
+  position: absolute;
+  width: 763px;
+  height: 137px;
+  left: 660px;
+  top: 400px;
+  padding: auto;
+}
+
+.your-name {
+  position: relative;
+  width: 609px;
+  height: 48px;
+  color: #5a5a5a;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  background: none;
+  border: none;
+  border-bottom: solid black;
+  border-left: solid black;
+  border-width: 0.30rem;
+}
+.your-email {
+  margin-top: 40px;
+  position: relative;
+  width: 609px;
+  height: 48px;
+  color: #5a5a5a;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  background: none;
+  border: none;
+  border-bottom: solid black;
+  border-left: solid black;
+  border-width: 0.30rem;
+}
+.your-message {
+  margin-top: 40px;
+  position: relative;
+  width: 609px;
+  height: 184px;
+  color: #5a5a5a;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  background: none;
+  border: none;
+  border-bottom: solid black;
+  border-left: solid black;
+  border-width: 0.30rem;
+}
+
+.submit {
+  position: absolute;
+  width: 197px;
+  height: 45px;
+  margin-top: 60px;
+  left: 200px;
+  padding-left: 60px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #000000;
+  background: none;
+  border: none;
+  border-right: solid black;
+  border-left: solid black;
+  border-width: 0.30rem;
+}
+
+.footer {
+  width: 1920px;
+  margin-top: 10px;
+  background-color: #000000;
+  padding: 40px 0px 20px;
+}
+.top{
+  color: #fbfbfb;
+  font-size: 1rem;
+  margin: 15px auto;
+
+
+}
+.copyright-message {
+  color: #fbfbfb;
+  font-size: 1rem;
+  padding: 15px 0px;
+}
+.footer-link{
+    margin: 0px 5px 0 5px;
+}
